@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Server</string>
+    <string name="config">Config</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="logs">Logs</string>
+</resources>
