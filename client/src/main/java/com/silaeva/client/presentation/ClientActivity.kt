@@ -10,7 +10,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.silaeva.client.presentation.ui.theme.ClientServerApplicationTheme
+import com.silaeva.clientserverapplication.ui.theme.ClientServerApplicationTheme
+
 
 class ClientActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

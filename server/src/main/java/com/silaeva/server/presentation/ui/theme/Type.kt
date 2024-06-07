@@ -1,4 +1,4 @@
-package com.silaeva.server.presentation.ui.theme
+package com.silaeva.clientserverapplication.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

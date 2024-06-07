@@ -23,3 +23,4 @@ rootProject.name = "ClientServerApplication"
 include(":app")
 include(":client")
 include(":server")
+include(":common_ui")

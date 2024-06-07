@@ -1,4 +1,4 @@
-package com.silaeva.client.presentation.ui.common_ui
+package com.silaeva.server.presentation.ui
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -19,9 +19,10 @@ import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.tooling.preview.Preview
-import com.silaeva.client.R
-import com.silaeva.client.presentation.ui.theme.Colors
-import com.silaeva.client.presentation.ui.theme.Spacing
+import com.silaeva.clientserverapplication.ui.theme.Colors
+import com.silaeva.server.presentation.ui.theme.Spacing
+import com.silaeva.server.R
+
 
 @Composable
 fun InputTextField(

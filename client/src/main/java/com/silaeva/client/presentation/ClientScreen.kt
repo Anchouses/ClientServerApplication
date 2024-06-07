@@ -22,14 +22,16 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.silaeva.client.R
-import com.silaeva.client.presentation.ui.common_ui.InputTextField
-import com.silaeva.client.presentation.ui.common_ui.PrimaryColorButton
-import com.silaeva.client.presentation.ui.theme.ClientServerApplicationTheme
-import com.silaeva.client.presentation.ui.theme.Spacing
-
+import com.silaeva.client.presentation.ui.InputTextField
+import com.silaeva.client.presentation.ui.PrimaryColorButton
+import com.silaeva.clientserverapplication.ui.theme.ClientServerApplicationTheme
+import com.silaeva.clientserverapplication.ui.theme.Spacing
 
 @Composable
 fun ClientScreen() {
+
+    val viewModel = ClientViewModel()
+
     var ip by remember { mutableStateOf("") }
     var port by remember { mutableStateOf("") }
     var isRunning by remember { mutableStateOf(false) }

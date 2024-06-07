@@ -1,4 +1,4 @@
-package com.silaeva.client.presentation.ui.theme
+package com.silaeva.clientserverapplication.ui.theme
 
 import android.app.Activity
 import android.os.Build

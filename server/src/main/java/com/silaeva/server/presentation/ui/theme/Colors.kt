@@ -1,11 +1,11 @@
-package com.silaeva.server.presentation.ui.theme
+package com.silaeva.clientserverapplication.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
 object Colors {
-    val white = Color.White
-    val black = Color.Black
-    val grey = Color(0xFF6D6D6D)
+    val white = Color(0xFFFFFFFF)
+    val black = Color(0xFF000000)
+    val grey = Color(0xFF6D6C6C)
     val background = Color(0xFFFFFBFE)
     val surface = Color(0xFFFFFBFE)
     val onPrimary = Color(0xFFFB2D54)
